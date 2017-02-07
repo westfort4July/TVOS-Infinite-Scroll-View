@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85EFB4991E49FEAD003AF4A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB4981E49FEAD003AF4A2 /* main.m */; };
+		85EFB49C1E49FEAD003AF4A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB49B1E49FEAD003AF4A2 /* AppDelegate.m */; };
+		85EFB49F1E49FEAD003AF4A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB49E1E49FEAD003AF4A2 /* ViewController.m */; };
+		85EFB4A41E49FEAD003AF4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EFB4A31E49FEAD003AF4A2 /* Assets.xcassets */; };
+		85EFB4AF1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB4AE1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoTests.m */; };
+		85EFB4BA1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB4B91E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoUITests.m */; };
+		85EFB4CA1E49FFCB003AF4A2 /* CarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB4C91E49FFCB003AF4A2 /* CarouselView.m */; };
+		85EFB4CD1E4A0304003AF4A2 /* CarouselViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB4CC1E4A0304003AF4A2 /* CarouselViewLayout.m */; };
+		85EFB4D01E4A040C003AF4A2 /* CarouselViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EFB4CF1E4A040C003AF4A2 /* CarouselViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85EFB4AB1E49FEAD003AF4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EFB48C1E49FEAD003AF4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EFB4931E49FEAD003AF4A2;
+			remoteInfo = "TVOS-InfiniteScrollDemo";
+		};
+		85EFB4B61E49FEAD003AF4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EFB48C1E49FEAD003AF4A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EFB4931E49FEAD003AF4A2;
+			remoteInfo = "TVOS-InfiniteScrollDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85EFB4941E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TVOS-InfiniteScrollDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EFB4981E49FEAD003AF4A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EFB49A1E49FEAD003AF4A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85EFB49B1E49FEAD003AF4A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85EFB49D1E49FEAD003AF4A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85EFB49E1E49FEAD003AF4A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85EFB4A31E49FEAD003AF4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85EFB4A51E49FEAD003AF4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EFB4AA1E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVOS-InfiniteScrollDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EFB4AE1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVOS_InfiniteScrollDemoTests.m; sourceTree = "<group>"; };
+		85EFB4B01E49FEAD003AF4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EFB4B51E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TVOS-InfiniteScrollDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EFB4B91E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVOS_InfiniteScrollDemoUITests.m; sourceTree = "<group>"; };
+		85EFB4BB1E49FEAD003AF4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EFB4C81E49FFCB003AF4A2 /* CarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselView.h; sourceTree = "<group>"; };
+		85EFB4C91E49FFCB003AF4A2 /* CarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselView.m; sourceTree = "<group>"; };
+		85EFB4CB1E4A0304003AF4A2 /* CarouselViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewLayout.h; sourceTree = "<group>"; };
+		85EFB4CC1E4A0304003AF4A2 /* CarouselViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewLayout.m; sourceTree = "<group>"; };
+		85EFB4CE1E4A040C003AF4A2 /* CarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewCell.h; sourceTree = "<group>"; };
+		85EFB4CF1E4A040C003AF4A2 /* CarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EFB4911E49FEAD003AF4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EFB4A71E49FEAD003AF4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EFB4B21E49FEAD003AF4A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85EFB48B1E49FEAD003AF4A2 = {
+			isa = PBXGroup;
+			children = (
+				85EFB4961E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo */,
+				85EFB4AD1E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests */,
+				85EFB4B81E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests */,
+				85EFB4951E49FEAD003AF4A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85EFB4951E49FEAD003AF4A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EFB4941E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo.app */,
+				85EFB4AA1E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests.xctest */,
+				85EFB4B51E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EFB4961E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo */ = {
+			isa = PBXGroup;
+			children = (
+				85EFB49A1E49FEAD003AF4A2 /* AppDelegate.h */,
+				85EFB49B1E49FEAD003AF4A2 /* AppDelegate.m */,
+				85EFB49D1E49FEAD003AF4A2 /* ViewController.h */,
+				85EFB49E1E49FEAD003AF4A2 /* ViewController.m */,
+				85EFB4C71E49FFA5003AF4A2 /* CarouselView */,
+				85EFB4A31E49FEAD003AF4A2 /* Assets.xcassets */,
+				85EFB4A51E49FEAD003AF4A2 /* Info.plist */,
+				85EFB4971E49FEAD003AF4A2 /* Supporting Files */,
+			);
+			path = "TVOS-InfiniteScrollDemo";
+			sourceTree = "<group>";
+		};
+		85EFB4971E49FEAD003AF4A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85EFB4981E49FEAD003AF4A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85EFB4AD1E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				85EFB4AE1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoTests.m */,
+				85EFB4B01E49FEAD003AF4A2 /* Info.plist */,
+			);
+			path = "TVOS-InfiniteScrollDemoTests";
+			sourceTree = "<group>";
+		};
+		85EFB4B81E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85EFB4B91E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoUITests.m */,
+				85EFB4BB1E49FEAD003AF4A2 /* Info.plist */,
+			);
+			path = "TVOS-InfiniteScrollDemoUITests";
+			sourceTree = "<group>";
+		};
+		85EFB4C71E49FFA5003AF4A2 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				85EFB4C81E49FFCB003AF4A2 /* CarouselView.h */,
+				85EFB4C91E49FFCB003AF4A2 /* CarouselView.m */,
+				85EFB4CE1E4A040C003AF4A2 /* CarouselViewCell.h */,
+				85EFB4CF1E4A040C003AF4A2 /* CarouselViewCell.m */,
+				85EFB4CB1E4A0304003AF4A2 /* CarouselViewLayout.h */,
+				85EFB4CC1E4A0304003AF4A2 /* CarouselViewLayout.m */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85EFB4931E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EFB4BE1E49FEAD003AF4A2 /* Build configuration list for PBXNativeTarget "TVOS-InfiniteScrollDemo" */;
+			buildPhases = (
+				85EFB4901E49FEAD003AF4A2 /* Sources */,
+				85EFB4911E49FEAD003AF4A2 /* Frameworks */,
+				85EFB4921E49FEAD003AF4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TVOS-InfiniteScrollDemo";
+			productName = "TVOS-InfiniteScrollDemo";
+			productReference = 85EFB4941E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85EFB4A91E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EFB4C11E49FEAD003AF4A2 /* Build configuration list for PBXNativeTarget "TVOS-InfiniteScrollDemoTests" */;
+			buildPhases = (
+				85EFB4A61E49FEAD003AF4A2 /* Sources */,
+				85EFB4A71E49FEAD003AF4A2 /* Frameworks */,
+				85EFB4A81E49FEAD003AF4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85EFB4AC1E49FEAD003AF4A2 /* PBXTargetDependency */,
+			);
+			name = "TVOS-InfiniteScrollDemoTests";
+			productName = "TVOS-InfiniteScrollDemoTests";
+			productReference = 85EFB4AA1E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85EFB4B41E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EFB4C41E49FEAD003AF4A2 /* Build configuration list for PBXNativeTarget "TVOS-InfiniteScrollDemoUITests" */;
+			buildPhases = (
+				85EFB4B11E49FEAD003AF4A2 /* Sources */,
+				85EFB4B21E49FEAD003AF4A2 /* Frameworks */,
+				85EFB4B31E49FEAD003AF4A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85EFB4B71E49FEAD003AF4A2 /* PBXTargetDependency */,
+			);
+			name = "TVOS-InfiniteScrollDemoUITests";
+			productName = "TVOS-InfiniteScrollDemoUITests";
+			productReference = 85EFB4B51E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EFB48C1E49FEAD003AF4A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = lchen;
+				TargetAttributes = {
+					85EFB4931E49FEAD003AF4A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26XB6LEGAP;
+						ProvisioningStyle = Automatic;
+					};
+					85EFB4A91E49FEAD003AF4A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26XB6LEGAP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85EFB4931E49FEAD003AF4A2;
+					};
+					85EFB4B41E49FEAD003AF4A2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 26XB6LEGAP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85EFB4931E49FEAD003AF4A2;
+					};
+				};
+			};
+			buildConfigurationList = 85EFB48F1E49FEAD003AF4A2 /* Build configuration list for PBXProject "TVOS-InfiniteScrollDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85EFB48B1E49FEAD003AF4A2;
+			productRefGroup = 85EFB4951E49FEAD003AF4A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85EFB4931E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo */,
+				85EFB4A91E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoTests */,
+				85EFB4B41E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85EFB4921E49FEAD003AF4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EFB4A41E49FEAD003AF4A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EFB4A81E49FEAD003AF4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EFB4B31E49FEAD003AF4A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85EFB4901E49FEAD003AF4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EFB4D01E4A040C003AF4A2 /* CarouselViewCell.m in Sources */,
+				85EFB49F1E49FEAD003AF4A2 /* ViewController.m in Sources */,
+				85EFB49C1E49FEAD003AF4A2 /* AppDelegate.m in Sources */,
+				85EFB4CA1E49FFCB003AF4A2 /* CarouselView.m in Sources */,
+				85EFB4CD1E4A0304003AF4A2 /* CarouselViewLayout.m in Sources */,
+				85EFB4991E49FEAD003AF4A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EFB4A61E49FEAD003AF4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EFB4AF1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EFB4B11E49FEAD003AF4A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EFB4BA1E49FEAD003AF4A2 /* TVOS_InfiniteScrollDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85EFB4AC1E49FEAD003AF4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85EFB4931E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo */;
+			targetProxy = 85EFB4AB1E49FEAD003AF4A2 /* PBXContainerItemProxy */;
+		};
+		85EFB4B71E49FEAD003AF4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85EFB4931E49FEAD003AF4A2 /* TVOS-InfiniteScrollDemo */;
+			targetProxy = 85EFB4B61E49FEAD003AF4A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85EFB4BC1E49FEAD003AF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		85EFB4BD1E49FEAD003AF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85EFB4BF1E49FEAD003AF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 26XB6LEGAP;
+				INFOPLIST_FILE = "TVOS-InfiniteScrollDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidneyband.TVOS-InfiniteScrollDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85EFB4C01E49FEAD003AF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 26XB6LEGAP;
+				INFOPLIST_FILE = "TVOS-InfiniteScrollDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidneyband.TVOS-InfiniteScrollDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85EFB4C21E49FEAD003AF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26XB6LEGAP;
+				INFOPLIST_FILE = "TVOS-InfiniteScrollDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidneyband.TVOS-InfiniteScrollDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOS-InfiniteScrollDemo.app/TVOS-InfiniteScrollDemo";
+			};
+			name = Debug;
+		};
+		85EFB4C31E49FEAD003AF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 26XB6LEGAP;
+				INFOPLIST_FILE = "TVOS-InfiniteScrollDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidneyband.TVOS-InfiniteScrollDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TVOS-InfiniteScrollDemo.app/TVOS-InfiniteScrollDemo";
+			};
+			name = Release;
+		};
+		85EFB4C51E49FEAD003AF4A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 26XB6LEGAP;
+				INFOPLIST_FILE = "TVOS-InfiniteScrollDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidneyband.TVOS-InfiniteScrollDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TVOS-InfiniteScrollDemo";
+			};
+			name = Debug;
+		};
+		85EFB4C61E49FEAD003AF4A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 26XB6LEGAP;
+				INFOPLIST_FILE = "TVOS-InfiniteScrollDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kidneyband.TVOS-InfiniteScrollDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TVOS-InfiniteScrollDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85EFB48F1E49FEAD003AF4A2 /* Build configuration list for PBXProject "TVOS-InfiniteScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EFB4BC1E49FEAD003AF4A2 /* Debug */,
+				85EFB4BD1E49FEAD003AF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EFB4BE1E49FEAD003AF4A2 /* Build configuration list for PBXNativeTarget "TVOS-InfiniteScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EFB4BF1E49FEAD003AF4A2 /* Debug */,
+				85EFB4C01E49FEAD003AF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85EFB4C11E49FEAD003AF4A2 /* Build configuration list for PBXNativeTarget "TVOS-InfiniteScrollDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EFB4C21E49FEAD003AF4A2 /* Debug */,
+				85EFB4C31E49FEAD003AF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85EFB4C41E49FEAD003AF4A2 /* Build configuration list for PBXNativeTarget "TVOS-InfiniteScrollDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EFB4C51E49FEAD003AF4A2 /* Debug */,
+				85EFB4C61E49FEAD003AF4A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85EFB48C1E49FEAD003AF4A2 /* Project object */;
+}
