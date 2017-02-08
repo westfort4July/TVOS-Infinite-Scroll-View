@@ -220,7 +220,7 @@ static const NSInteger buffer = 2;
     if (self.autoScroll)
     {
         [self.timer invalidate];
-        self.timer = [NSTimer scheduledTimerWithTimeInterval:7.0f target:self selector:@selector(scrollToNextPage) userInfo:nil repeats:YES];
+        self.timer = [NSTimer scheduledTimerWithTimeInterval:3.0f target:self selector:@selector(scrollToNextPage) userInfo:nil repeats:YES];
         [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSRunLoopCommonModes];
     }
 }
