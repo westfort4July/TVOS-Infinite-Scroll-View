@@ -1,5 +1,5 @@
 # TVOS-Infinite-Scroll-View
-	the swift version infinite TVOS scroll View : [ouroboros](https://github.com/willowtreeapps/ouroboros)
+the swift version infinite TVOS scroll View : [ouroboros](https://github.com/willowtreeapps/ouroboros)
 
 # Usage
 	- (void)viewDidLoad
@@ -15,4 +15,5 @@
 	}
 
 ## Preview
-	![preview image](https://github.com/kidneyband/TVOS-Infinite-Scroll-View/blob/master/TVOS-InfiniteScrollDemo/screenRecorder.gif)
+
+![preview image](https://github.com/kidneyband/TVOS-Infinite-Scroll-View/blob/master/TVOS-InfiniteScrollDemo/screenRecorder.gif)
