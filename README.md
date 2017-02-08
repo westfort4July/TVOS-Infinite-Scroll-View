@@ -17,3 +17,7 @@ the swift version infinite TVOS scroll View : [ouroboros](https://github.com/wil
 ## Preview
 
 ![preview image](https://github.com/kidneyband/TVOS-Infinite-Scroll-View/blob/master/TVOS-InfiniteScrollDemo/screenRecorder.gif)
+
+# Lisence
+
+MIT

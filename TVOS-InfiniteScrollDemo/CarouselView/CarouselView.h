@@ -18,7 +18,8 @@
 @interface CarouselView : UICollectionView
 
 @property (nonatomic, strong)   NSArray                     *carouselContentArray;
-@property (nonatomic, assign)   NSInteger                   currentlyFocusedItem;
+// current focused item index
+@property (nonatomic, readonly) NSInteger                   currentlyFocusedItem;
 @property (nonatomic, assign)   BOOL                        autoScroll;
 @property (nonatomic, weak)     id<CarouselViewDelegate> carouselDelegate;
 

@@ -37,6 +37,8 @@ typedef NS_ENUM(NSUInteger, VisibleStatus)
 
 @property (nonatomic, assign) NSInteger initiallyFocusedItem;
 
+@property (nonatomic, assign) NSInteger currentlyFocusedItem;
+
 @property (nonatomic, assign) VisibleStatus visibleStatus;
 
 @end
