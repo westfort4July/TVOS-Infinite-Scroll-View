@@ -2,7 +2,6 @@
 	the swift version infinite TVOS scroll View : [ouroboros](https://github.com/willowtreeapps/ouroboros)
 
 # Usage
-	{quote}
 	- (void)viewDidLoad
 	{
 	    [super viewDidLoad];
@@ -14,7 +13,6 @@
 	    self.carouselView.autoScroll = YES;
 	    [self.view addSubview:self.carouselView];
 	}
-	{quote}
 
 ## Preview
 	![preview image](https://github.com/kidneyband/TVOS-Infinite-Scroll-View/blob/master/TVOS-InfiniteScrollDemo/screenRecorder.gif)
