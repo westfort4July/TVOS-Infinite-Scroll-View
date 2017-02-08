@@ -15,3 +15,6 @@
 	    [self.view addSubview:self.carouselView];
 	}
 	{quote}
+
+## Preview
+	![preview image](https://github.com/kidneyband/TVOS-Infinite-Scroll-View/blob/master/TVOS-InfiniteScrollDemo/screenRecorder.gif)
